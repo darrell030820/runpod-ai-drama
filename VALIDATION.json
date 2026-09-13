@@ -9,8 +9,8 @@
   "python_syntax": "passed",
   "github_actions_yaml_syntax": "passed",
   "patched_startup_bash_syntax": "passed",
-  "setup_tests": "4 passed",
-  "docker_build": "not run",
+  "setup_tests": "5 passed, including simulated EXDEV directory move",
+  "docker_build": "First cloud build failed on directory rename (EXDEV); local fix tested, cloud rebuild pending",
   "registry_push": "not run",
   "gpu_render": "not run"
 }

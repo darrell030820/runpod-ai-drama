@@ -1,5 +1,6 @@
 """CPU checks for setup logic. No Docker image, network model downloads or GPU."""
 import hashlib
+import errno
 import importlib.util
 import json
 import pathlib
@@ -23,6 +24,23 @@ check = load('check_nodes')
 
 
 class SetupTests(unittest.TestCase):
+    def test_preserve_baked_tree_across_docker_layers(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp).resolve()
+            source = root / 'comfyui-baked'
+            destination = root / 'h3-original-baked'
+            source.mkdir()
+            (source / 'custom_nodes').mkdir()
+            (source / 'custom_nodes/provider.py').write_text('original node')
+            (source / 'main.py').write_text('original core')
+            with patch.object(build.shutil.os, 'rename', side_effect=OSError(errno.EXDEV, 'Invalid cross-device link')):
+                build.preserve_baked_tree(source, destination)
+            self.assertFalse(source.exists())
+            self.assertEqual((destination / 'main.py').read_text(), 'original core')
+            self.assertEqual((destination / 'custom_nodes/provider.py').read_text(), 'original node')
+            with self.assertRaises(RuntimeError):
+                build.preserve_baked_tree(source, destination)
+
     def test_exact_base_patch_preserves_services(self):
         source = (ROOT / 'base-start.sh.reference').read_text(encoding='utf-8')
         result = build.patch_start(source, ['ComfyUI-Sol-H3', 'ComfyUI-H3-Motion-Context'])

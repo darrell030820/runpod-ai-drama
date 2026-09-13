@@ -17,6 +17,14 @@ def run(*args):
     subprocess.run([str(x) for x in args], check=True)
 
 
+def preserve_baked_tree(source, destination):
+    if destination.exists():
+        raise RuntimeError(f'Backup directory already exists: {destination}')
+    # Docker overlay layers can reject directory rename with EXDEV.
+    # shutil.move falls back to copying the tree before removing the source.
+    shutil.move(str(source), str(destination))
+
+
 def patch_start(source, node_names):
     """Fail closed if the pinned base's startup contract changes."""
     lines = source.splitlines()
@@ -58,7 +66,7 @@ def main():
         raise RuntimeError('Base startup differs from audited 1.4.7 image')
     repos = json.loads((ROOT / 'repositories.json').read_text())
     old = pathlib.Path('/opt/h3-original-baked')
-    BAKED.rename(old)
+    preserve_baked_tree(BAKED, old)
     clone(next(x for x in repos if x['name'] == 'ComfyUI'), BAKED)
     # Preserve the base image's management and service integrations.
     shutil.copytree(old / 'custom_nodes', BAKED / 'custom_nodes', dirs_exist_ok=True)
