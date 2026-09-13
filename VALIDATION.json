@@ -1,0 +1,16 @@
+{
+  "base_image": "runpod/comfyui:1.4.7-cuda13.0",
+  "base_digest": "sha256:094dc6d79448b6f118c4d2b054073f92d765c568598e7a96aaeda678a6bcbf3b",
+  "required_node_types": 36,
+  "model_count": 5,
+  "model_bytes": 52576508320,
+  "input_images": 8,
+  "workflow_identical_to_source": true,
+  "python_syntax": "passed",
+  "github_actions_yaml_syntax": "passed",
+  "patched_startup_bash_syntax": "passed",
+  "setup_tests": "4 passed",
+  "docker_build": "not run",
+  "registry_push": "not run",
+  "gpu_render": "not run"
+}

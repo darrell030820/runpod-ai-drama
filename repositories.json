@@ -1,0 +1,68 @@
+[
+  {
+    "name": "ComfyUI",
+    "repo": "Comfy-Org/ComfyUI",
+    "revision": "02d39c8cd7828566f48ccf783c1c75b8336044f5",
+    "date": "2026-09-13T08:00:06Z"
+  },
+  {
+    "name": "ComfyUI-KJNodes",
+    "repo": "kijai/ComfyUI-KJNodes",
+    "revision": "d3cfe21625e5170126ce06fbfcfe1d88108688c3",
+    "date": "2026-09-13T12:13:32Z"
+  },
+  {
+    "name": "rgthree-comfy",
+    "repo": "rgthree/rgthree-comfy",
+    "revision": "2c5342a8cb0eaecaabf61435a5f37dd594c510ba",
+    "date": "2026-09-01T03:42:17Z"
+  },
+  {
+    "name": "ComfyUI-Easy-Use",
+    "repo": "yolain/ComfyUI-Easy-Use",
+    "revision": "450b1ce4ce43b2280521c87f5fa388a898fb2ad2",
+    "date": "2026-09-07T04:51:49Z"
+  },
+  {
+    "name": "ComfyUI-VideoHelperSuite",
+    "repo": "Kosinkadink/ComfyUI-VideoHelperSuite",
+    "revision": "4d907bee61e92c2e65af3bd6383a4e4d356126d1",
+    "date": "2026-09-02T06:48:06Z"
+  },
+  {
+    "name": "ComfyUI-H3-Prompt-IDE",
+    "repo": "ethanfel/ComfyUI-H3-Prompt-IDE",
+    "revision": "401ef31c5d88f16959c180f17f6e5b013f84bb1f",
+    "date": "2026-09-07T18:09:06Z"
+  },
+  {
+    "name": "H3-Optimizations",
+    "repo": "Zironic/H3-Optimizations",
+    "revision": "2c5b1a1176d9ad0e39f5112b7246b7c5ba2254b0",
+    "date": "2026-09-10T05:39:06Z"
+  },
+  {
+    "name": "Comfyui_Minimax_h3_latent_Upscaler",
+    "repo": "LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler",
+    "revision": "d7c01b9011f2e8439493f6c02c29995a27df276f",
+    "date": "2026-08-28T06:10:42Z"
+  },
+  {
+    "name": "ComfyUI-H3-Motion-Context",
+    "repo": "NikoDemon80/ComfyUI-H3-Motion-Context",
+    "revision": "5335715abe54c1a9bfbe3494da29aae3e8635ce3",
+    "date": "2026-09-06T18:37:48Z"
+  },
+  {
+    "name": "ComfyUI-Minimax-H3-Reference-Library",
+    "repo": "nikaskeba/ComfyUI-Minimax-H3-Reference-Library",
+    "revision": "8b1d690ccfe7e03154e2f2d4ff326f6ae74a1dc9",
+    "date": "2026-09-11T05:34:38Z"
+  },
+  {
+    "name": "ComfyUI-Sol-H3",
+    "repo": "xmarre/ComfyUI-Sol-H3",
+    "revision": "f82ff2693be37dbad3438a30eb389d77136c0276",
+    "date": "2026-09-09T17:37:44Z"
+  }
+]

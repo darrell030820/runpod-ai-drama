@@ -1,0 +1,162 @@
+{
+  "providers": {
+    "SamplerCustomAdvanced": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "MiniMaxH3MotionContextTrim": [
+      "NikoDemon80/ComfyUI-H3-Motion-Context"
+    ],
+    "easy ifElse": [
+      "yolain/ComfyUI-Easy-Use"
+    ],
+    "Power Lora Loader (rgthree)": [
+      "rgthree/rgthree-comfy"
+    ],
+    "ResolutionSelector": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "UNETLoader": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "PrimitiveFloat": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "H3SparseAttention": [
+      "Zironic/H3-Optimizations"
+    ],
+    "VAELoader": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "MiniMaxH3MotionContext": [
+      "NikoDemon80/ComfyUI-H3-Motion-Context"
+    ],
+    "INTConstant": [
+      "kijai/ComfyUI-KJNodes"
+    ],
+    "SolH3Exact": [
+      "xmarre/ComfyUI-Sol-H3"
+    ],
+    "AudioConcat": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "MinimaxH3LatentUpscaler3D": [
+      "LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler"
+    ],
+    "CLIPLoader": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "H3PromptReferenceInputs": [
+      "ethanfel/ComfyUI-H3-Prompt-IDE"
+    ],
+    "easy seed": [
+      "yolain/ComfyUI-Easy-Use"
+    ],
+    "VAEDecode": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "LTXVConcatAVLatent": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "BlockSparseAttention": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "LoadImage": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "VAEDecodeAudio": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "PrimitiveBoolean": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "LTXVSeparateAVLatent": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "H3PromptIDE": [
+      "ethanfel/ComfyUI-H3-Prompt-IDE"
+    ],
+    "ComfyMathExpression": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "KSamplerSelect": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "SkebaCachedMiniMaxH3ReferenceToVideo": [
+      "nikaskeba/ComfyUI-Minimax-H3-Reference-Library"
+    ],
+    "BasicScheduler": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "ModelAttentionBackend": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "ImageFromBatch": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "VHS_VideoCombine": [
+      "Kosinkadink/ComfyUI-VideoHelperSuite"
+    ],
+    "ImageBatchMulti": [
+      "kijai/ComfyUI-KJNodes"
+    ],
+    "RandomNoise": [
+      "Comfy-Org/ComfyUI"
+    ],
+    "SimpleCalculatorKJ": [
+      "kijai/ComfyUI-KJNodes"
+    ],
+    "BasicGuider": [
+      "Comfy-Org/ComfyUI"
+    ]
+  },
+  "source_checks": [
+    {
+      "url": "https://raw.githubusercontent.com/NikoDemon80/ComfyUI-H3-Motion-Context/5335715abe54c1a9bfbe3494da29aae3e8635ce3/nodes.py",
+      "found": [
+        "MiniMaxH3MotionContextTrim",
+        "MiniMaxH3MotionContext"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Zironic/H3-Optimizations/2c5b1a1176d9ad0e39f5112b7246b7c5ba2254b0/h3_optimizations/nodes.py",
+      "found": [
+        "H3SparseAttention"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Zironic/H3-Optimizations/2c5b1a1176d9ad0e39f5112b7246b7c5ba2254b0/__init__.py",
+      "found": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler/d7c01b9011f2e8439493f6c02c29995a27df276f/nodes/__init__.py",
+      "found": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/xmarre/ComfyUI-Sol-H3/f82ff2693be37dbad3438a30eb389d77136c0276/sol_h3/nodes.py",
+      "found": [
+        "SolH3Exact"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nikaskeba/ComfyUI-Minimax-H3-Reference-Library/8b1d690ccfe7e03154e2f2d4ff326f6ae74a1dc9/__init__.py",
+      "found": [
+        "SkebaCachedMiniMaxH3ReferenceToVideo",
+        "ImageFromBatch"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rgthree/rgthree-comfy/2c5342a8cb0eaecaabf61435a5f37dd594c510ba/__init__.py",
+      "found": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/rgthree/rgthree-comfy/2c5342a8cb0eaecaabf61435a5f37dd594c510ba/py/power_lora_loader.py",
+      "found": []
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler/d7c01b9011f2e8439493f6c02c29995a27df276f/nodes/minimax_h3_latent_upscaler_3d.py",
+      "found": [
+        "MinimaxH3LatentUpscaler3D"
+      ]
+    }
+  ]
+}

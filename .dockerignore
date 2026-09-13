@@ -1,0 +1,6 @@
+.git
+__pycache__
+*.zip
+tests
+test_setup.py
+.github

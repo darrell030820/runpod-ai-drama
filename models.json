@@ -1,0 +1,47 @@
+[
+  {
+    "repo": "WarmBloodAban/Minimax-h3_Singularity",
+    "revision": "2a7ee743d7926811bfa87d174021b0119451133c",
+    "filename": "Minimax-h3_Singularity_ref2va_Pruned_v1.3_int8.safetensors",
+    "directory": "diffusion_models",
+    "name": "Minimax-h3_Singularity_ref2va_Pruned_v1.3_int8.safetensors",
+    "size": 20967647456,
+    "sha256": "412a7b126595a958964193f3b42513d7cf2df4196ef04223a0f05e3622949cce"
+  },
+  {
+    "repo": "Comfy-Org/MiniMax-H3",
+    "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+    "filename": "text_encoders/qwen3vl_32b_minimax_h3_int8_convrot.safetensors",
+    "directory": "text_encoders",
+    "name": "qwen3vl_32b_minimax_h3_int8_convrot.safetensors",
+    "size": 27141342152,
+    "sha256": "bc2ced0fbea64757fa9acddccfc0b3f4819d1dcf1da6c124d690d368be283923"
+  },
+  {
+    "repo": "Kijai/MiniMax-H3-experimental",
+    "revision": "f4cac997f880e93cf6940af61ee8d58ef31ff7f3",
+    "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "directory": "vae",
+    "name": "minimax_h3_video_vae_int8_convrot.safetensors",
+    "size": 3171670912,
+    "sha256": "9bb2d96f218c76babd85e0611b85ca8fb330a90546c01a0005e8a58a59593410"
+  },
+  {
+    "repo": "Comfy-Org/MiniMax-H3",
+    "revision": "a98869194787969724c7425d95d0ed73ce9202af",
+    "filename": "vae/minimax_h3_audio_vae_fp32.safetensors",
+    "directory": "vae",
+    "name": "minimax_h3_audio_vae_fp32.safetensors",
+    "size": 605254808,
+    "sha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48"
+  },
+  {
+    "repo": "LBH-123-AI/Minimax_h3_latent_Upscaler",
+    "revision": "13ccf95d85d120bdbc92c05b1247a6e147bf54bf",
+    "filename": "minimax_h3_latent_upscaler_3d_bf16.safetensors",
+    "directory": "latent_upscale_models",
+    "name": "minimax_h3_latent_upscaler_3d_bf16.safetensors",
+    "size": 690592992,
+    "sha256": "4f57821f5837f32f7142b67d815606dbd7550f194e5c769f7d6c3f83b146a5e6"
+  }
+]
